@@ -38,6 +38,7 @@
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		D965B9A81B443FC50043D033 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D965B9A71B443FC50043D033 /* Penguin.m */; };
 		D965B9AE1B443FDD0043D033 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D965B9AD1B443FDD0043D033 /* Seal.m */; };
+		D965B9B11B445E830043D033 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D965B9B01B445E830043D033 /* Gameplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		D965B9A71B443FC50043D033 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
 		D965B9AC1B443FDD0043D033 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
 		D965B9AD1B443FDD0043D033 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
+		D965B9AF1B445E830043D033 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
+		D965B9B01B445E830043D033 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				D965B9A71B443FC50043D033 /* Penguin.m */,
 				D965B9AC1B443FDD0043D033 /* Seal.h */,
 				D965B9AD1B443FDD0043D033 /* Seal.m */,
+				D965B9AF1B445E830043D033 /* Gameplay.h */,
+				D965B9B01B445E830043D033 /* Gameplay.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				D965B9A81B443FC50043D033 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				D965B9B11B445E830043D033 /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
